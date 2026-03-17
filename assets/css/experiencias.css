@@ -1,0 +1,41 @@
+.experiencia_card {
+    background-color: #151925;
+    border: 2px solid #00bcd4;
+    border-radius: 20px;
+    margin: 40px 20px;
+    font-family: "Sen", sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 100px 40px;
+    text-align: center;
+    filter: drop-shadow(0 0 4px rgba(255,255,255,0.2))
+            drop-shadow(0 0 8px rgba(255,255,255,0.2));
+}
+.experiencia_card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.experiencia_card p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.experiencia_card h3 span {
+    display: block;
+    font-size: 16px;
+    color: #00bcd4;
+    margin-top: 10px;
+}
+
+.exp_divider {
+    border: none;
+    height: 2px;
+    background: linear-gradient(
+        to right,
+        transparent,
+        #00bcd4,
+        transparent
+    );
+    margin: 50px 0;
+}

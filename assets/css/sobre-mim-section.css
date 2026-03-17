@@ -1,0 +1,28 @@
+.about_section {
+    background-color: #151925;
+    border: 2px solid #00bcd4;
+    border-radius: 20px;
+    margin: 40px 20px;
+    font-family: "Sen", sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 100px 40px;
+    text-align: center;
+    filter: drop-shadow(0 0 4px rgba(255,255,255,0.2))
+            drop-shadow(0 0 8px rgba(255,255,255,0.2));
+}
+
+.apresentacao {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.section_title span{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #00bcd4;
+}

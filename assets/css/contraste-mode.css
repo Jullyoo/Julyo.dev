@@ -1,0 +1,109 @@
+.contrast-mode {
+    background: black;
+    color: yellow;
+}
+
+.contrast-mode header,
+.contrast-mode nav,
+.contrast-mode nav a {
+    background: black;
+    color: yellow;
+}
+
+.contrast-mode nav a:hover {
+    color: red;
+}
+.contrast-mode .project_card,
+.contrast-mode .service_card,
+.contrast-mode .tech_card,
+.contrast-mode .tech_type_card,
+.contrast-mode .experiencia_card,
+.contrast-mode .contact_card {
+    background: black;
+    color: yellow;
+}
+
+.contrast-mode .dev{
+    color: red;
+    border-right: 4px solid red;
+}
+
+.contrast-mode .contact_card h3 {
+    color: red;
+}
+
+.contrast-mode .contact_card p {
+    color: yellow;
+}
+
+.contrast-mode .project_card,
+.contrast-mode .service_card,
+.contrast-mode .tech_card,
+.contrast-mode .tech_type_card,
+.contrast-mode .experiencia_card,
+.contrast-mode .contact_card {
+    border: 1px solid red;
+}
+
+.contrast-mode .about_section {
+    background-color: black;
+    border: 2px solid yellow;
+    color: yellow
+}
+.contrast-mode span,
+.contrast-mode .experiencia_card span {
+    color: red;
+}
+
+.contrast-mode .exp_divider {
+    background: linear-gradient(
+        to right,
+        transparent,
+        red,
+        transparent
+    );
+}
+
+.contrast-mode .modal_content {
+    background: black;
+    color: yellow;
+    border: 2px solid yellow;
+}
+
+.contrast-mode .modal_btn {
+    background-color: red;
+    color: yellow;
+}
+.contrast-mode .icon-container img {
+    filter: invert(27%) sepia(91%) saturate(7452%) hue-rotate(354deg) brightness(94%) contrast(125%);
+}
+
+.contrast-mode .button {
+    background-color: black;
+    color: yellow;
+}
+.contrast-mode .button::before,
+.contrast-mode .button::after {
+    background: linear-gradient(255deg, red, #960000);
+}
+
+.contrast-mode .footer p:hover {
+    color: red;
+    transition: ease-in-out 0.3s;
+}
+
+.contrast-mode .logo:hover {
+    color: red;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.contrast-mode  .footer p,
+.contrast-mode .apresentacao p {
+    color: yellow;
+}
+
+.contrast-mode  .footer {
+    background-color: black;
+    border-top: 2px solid yellow;
+}

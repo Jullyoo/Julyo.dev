@@ -1,0 +1,70 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.nome, .dev{
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nome{
+    font-size: 70px;
+}
+
+.dev{
+    font-size: 50px;
+    border-right: 4px solid #00bcd4;
+    width: 17ch;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #00bcd4;;
+    animation: blinkMarker 0.5s infinite, typing 5s steps(17) infinite ;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #00bcd4;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.icon-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+.icon-container img{
+    filter: invert(53%) sepia(93%) saturate(3015%) hue-rotate(151deg) brightness(98%) contrast(101%);
+}
+
+.icon-container a{
+    text-decoration: none;
+}
+
+.icon{
+    width: 50px;
+    height: auto;
+    display: block;
+    transition: transform 0.3s;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}

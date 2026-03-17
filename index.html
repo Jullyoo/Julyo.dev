@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julio.dev</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="particles-js"></div>
+
+    <header id="header">
+        <div class="logo">Julio.dev</div>
+
+        <nav class="nav_menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre_mim">Sobre</a></li>
+                <li><a href="#experiencias">Experiências</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="theme">
+            <select id="themeSelector">
+                <option value="dark-mode">🌙 Escuro</option>
+                <option value="light-mode">☀️ Claro</option>
+                <option value="red-mode">🔴 Vermelho</option>
+                <option value="green-mode">🟢 Verde</option>
+                <option value="purple-mode">🟣 Roxo</option>
+                <option value="contrast-mode">⚫ Alto Contraste</option>
+            </select>
+        </div>
+        
+        <div class="menu_toggle">☰</div>
+        
+    </header>
+
+    <section id="home" class="hero">
+        <h1 class="nome">Julio Guimarães</h1>
+        <h2 class="dev">Desenvolvedor Jr.</h2>
+        <div class="icon-container">
+             <a href="https://www.linkedin.com/in/j-guimaraes/" target="_blank">
+                 <img src="assets/images/linkedin.svg" alt="linkedin-original" class="icon">
+             </a>
+
+            <a href="https://github.com/Jullyoo" target="_blank">
+                <img src="assets/images/github-square.svg" alt="github-square" class="icon">
+            </a>
+
+            <a href="#contato">
+                 <img src="assets/images/envelope-square.svg" alt="envelope-square" class="icon">
+            </a>
+        </div>
+        <a href="https://bit.ly/3RApMep" target="_blank">
+        <button class="button">Curriculum</button>
+        </a>
+    </section>
+
+    <section id="sobre_mim" class="about_section">
+        <h2 class="section_title">Quem sou <span>eu?</span></h2>
+        <p class="apresentacao" id="text"></p>
+    </section>
+
+    <section id="experiencias" class="section">
+        <h2 class="section_title">Experiências</h2>
+        <div class="experiencias_profissionais">
+            <div class="experiencia_card">
+                <h3>Jovem Aprendiz Financeiro - GSS Segurança. <span>Mar/2022 – Jun/2023</span></h3>
+                <p class="load-text" data-file="assets/texts/gss.txt"></p>
+                <hr class="exp_divider"> 
+                <h3>Analista de Operações - Grupo NewSpace LTDA. <span>Dez/2023 – Set/2025.</span></h3>
+                <p class="load-text" data-file="assets/texts/newspace.txt"></p>
+                <hr class="exp_divider"> 
+                <h3>Estagiário de Suporte Técnico - SETIDE Osasco. <span>Mar/2026 – Atualmente. </span></h3>
+                <p class="load-text" data-file="assets/texts/setide.txt"></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="section">
+        <h2 class="section_title">Serviços</h2>
+        <div class="services">
+            <div class="service_cards">
+
+                <div class="service_card"
+                     data-title="Desenvolvimento Web"
+                     data-description="Criação de sites e aplicações web responsivas, utilizando as melhores práticas de desenvolvimento e design para garantir uma experiência de usuário excepcional."
+                     data-tech="HTML, CSS, JavaScript, Python (Flask, Django) ">
+                    <h3>Desenvolvimento Web</h3>
+                    <img src="assets/images/png/Web_Design.png" alt="Web-Design">
+                </div>
+                
+                <div class="service_card"
+                     data-title="UX/UI Design"
+                     data-description="Criação de interfaces de usuário intuitivas e atraentes, focadas na experiência do usuário e na usabilidade."
+                     data-tech="Figma, CSS, JavaScript, Design de icons, Animações">
+                    <h3>UX/UI Design</h3>
+                    <img src="assets/images/png/Design_UX.png" alt="UX-UI">
+                </div>
+
+                <div class="service_card"
+                     data-title="Dashboards em BI"
+                     data-description="Criação de dashboards interativos para análise de dados e visualização de informações."
+                     data-tech="Power BI, SQL, Python (Pandas, Matplotlib, Seaborn)">
+                    <h3>Dashboards em BI</h3>
+                    <img src="assets/images/png/Power_BI.png" alt="Power-BI">
+                </div>
+
+                <div class="service_card"
+                     data-title="Suporte Técnico"
+                     data-description="Suporte técnico especializado para resolução de problemas e manutenção de sistemas."
+                     data-tech="Windows, Linux, Suporte de Hardware, Suporte de Software">
+                    <h3>Suporte Técnico</h3>
+                    <img src="assets/images/png/suporte_tecnico.png" alt="Suporte-Técnico ">
+                </div>
+            </div>
+
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="tecnologias" class="section">
+        <h2 class="section_title">Tecnologias</h2>
+        <div class="tecnologias">
+
+            <div class="tech_type_card">    
+                <h3>Backend</h3>
+                <div class="tech_cards">
+
+                    <div class="tech_card"
+                        data-title="Python"
+                        data-courses="Udemy: Python 3+ Completo - Luiz Otávio Miranda | YouTube: Curso de Python - Gustavo Guanabara"
+                        data-experience="Faculdade de Engenharia de Software, Desenvolvimento de projetos pessoais e acadêmicos, Processo Seletivo Analise de Dados"
+                        data-projects="Jullyo Capitale">
+
+                        <h3>Python</h3>
+                        <img src="assets/images/png/python.svg" alt="Python">
+
+                    </div>
+
+                    <div class="tech_card"
+                         data-title="Java"
+                         data-courses="Udemy: Java Completo - Professor: Arnaldo Sousa"
+                         data-experience="Faculdade de Engenharia de Software"
+                         data-projects="Nenhum projeto específico, mas utilizo Java para estudos e prática de lógica de programação e POO.">
+                        <h3>Java</h3>
+                        <img src="assets/images/png/java.png" alt="Java">
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="tech_type_card">
+                <h3>Frontend</h3>
+                <div class="tech_cards">
+                    <div class="tech_card"
+                         data-title="HTML"
+                         data-courses="Udemy: Programação Web Front-end Fundamentos: HTML, CSS, Lógica de programação e Javascript. - Professor: Daniel Tapias Morales"
+                         data-experience="Faculdade de Engenharia de Software e Desenvolvimento de projetos pessoais e acadêmicos"
+                         data-projects="Jullyo Capitale, Portfólio Pessoal">
+                        <h3>HTML</h3>
+                        <img src="assets/images/png/html (1).png" alt="HTML">
+                    </div>
+                    <div class="tech_card"
+                         data-title="CSS"
+                         data-courses="Udemy: Programação Web Front-end Fundamentos: HTML, CSS, Lógica de programação e Javascript. - Professor: Daniel Tapias Morales"
+                         data-experience="Faculdade de Engenharia de Software e Desenvolvimento de projetos pessoais e acadêmicos"
+                         data-projects="Jullyo Capitale, Portfólio Pessoal">
+                        <h3>CSS</h3>
+                        <img src="assets/images/png/css-3 (1).png" alt="CSS">
+                    </div>
+                    <div class="tech_card"
+                         data-title="JavaScript"
+                         data-courses="Udemy: Programação Web Front-end Fundamentos: HTML, CSS, Lógica de programação e Javascript. - Professor: Daniel Tapias Morales"
+                         data-experience="Faculdade de Engenharia de Software e Desenvolvimento de projetos pessoais e acadêmicos"
+                         data-projects="Jullyo Capitale, Portfólio Pessoal">
+                        <h3>JavaScript</h3>
+                        <img src="assets/images/png/js (1).png" alt="JavaScript">
+                    </div>
+                </div>
+            </div>
+
+            <div class="tech_type_card">
+                <h3>Analise de Dados</h3>
+                <div class="tech_cards">
+                    <div class="tech_card"
+                         data-title="Power BI"
+                         data-courses="Udemy: Curso de Power BI + SQLServer - Professor: Danilo Maciel."
+                         data-experience="Projetos Pessoais"
+                         data-projects="Dashboard Brasileirão, Dashboard Bitcoin, Dashboard Vendas, Dashboard Recursos Humanos, Dashboard E-commerce">
+                        <h3>Power BI</h3>
+                        <img src="assets/images/png/Power_BI.png" alt="Power-BI">
+                    </div>
+                    <div class="tech_card"
+                         data-title="MySQL"
+                         data-courses="Udemy: Curso de Power BI + SQLServer - Professor: Danilo Maciel."
+                         data-experience="Projetos Pessoais"
+                         data-projects="Dashboard Brasileirão, Dashboard Bitcoin, Dashboard Vendas, Dashboard Recursos Humanos, Dashboard E-commerce">
+                        <h3>MySQL</h3>
+                        <img src="assets/images/png/mysql (1).png" alt="MySQL">
+                    </div>
+                    <div class="tech_card"
+                         data-title="Pandas"
+                         data-courses="Youtube: Curso de Python para Análise de Dados - Pandas, Matplotlib, Seaborn."
+                         data-experience="Projetos Pessoais, Processo Seletivo Analise de Dados"
+                         data-projects="Dashboard Bitcoin, Dashboard Vendas, Dashboard Recursos Humanos, Dashboard E-commerce">
+                        <h3>Pandas</h3>
+                        <img src="assets/images/png/pandas.png" alt="Pandas">
+                    </div>
+                </div>
+            </div>
+
+            <div class="tech_type_card">        
+                <h3>Outros</h3>
+                <div class="tech_cards">
+                    <div class="tech_card"
+                         data-title="Git"
+                         data-courses="Youtube: Curso de Git e GitHub para Iniciantes."
+                         data-experience="Dia a Dia de Desenvolvimento de Software"
+                         data-projects="Jullyo Capitale, Portfólio Pessoal">
+                        <h3>Git</h3>
+                        <img src="assets/images/png/git.png" alt="Git">
+                    </div>
+                    <div class="tech_card"
+                         data-title="Office"
+                         data-courses="Udemy: Curso de Excel Completo Basico ao Avançado - Professor: Nelio Alves. | Bradesco Cursos: Curso Completo de Pacote Office (Basico ao Avançado)."
+                         data-experience="Experiencias Profissionais: GSS Segurança, Grupo NewSpace LTDA, SETIDE Osasco"
+                         data-projects="Nenhum projeto específico, mas utilizo o pacote Office para atividades acadêmicas e profissionais.">    
+                        <h3>Office</h3>
+                        <img src="assets/images/png/office (1).png" alt="Office">
+                    </div>
+                    <div class="tech_card"
+                         data-title="Suporte Técnico"
+                         data-courses="Udemy: Suporte Técnico na Pratica - Professor: Cássio Assis."
+                         data-experience="Senai Jandira (Técnico de redes de computadores) | SETIDE Osasco (Estagiário de Suporte Técnico)"
+                         data-projects="Nenhum projeto específico, mas atuo com suporte técnico em ambientes corporativos.">
+                        <h3>Suporte Técnico</h3>
+                        <img src="assets/images/png/suporte_tecnico.png" alt="Suporte-Técnico ">
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="section">
+        <h2 class="section_title">Projetos</h2>
+
+        <div class="project_cards">
+
+            <div class="project_card"
+                data-title="Jullyo Capitale"
+                data-description="Calculadora de investimentos. Aplicação para simulação de investimentos com cálculo de juros compostos, IR e CDI, LCI, LCA, Tesouro Selic."
+                data-tech="HTML, CSS, JavaScript, Python, Flask"
+                data-link="https://github.com/Jullyoo/Jullyo-Capitale">
+
+                <img src="assets/images/png/Jullyo_Capitale.png" alt="Jullyo-Capitale">
+                <h3>Jullyo Capitale</h3>
+            </div>
+
+            <div class="project_card"
+                data-title="Dashboard Brasileirão"
+                data-description="Dashboard em Power BI apresentando dados sobre o campeonato brasileiro de 2024, Projeto realizado com base em uma proposta de faculdade."
+                data-tech="Power BI, Power Query, Python."
+                data-link="https://github.com/Jullyoo/Dashboard-BitCoin">
+
+                <img src="assets/images/png/Dashboard-brasileirão.PNG" alt="Dashboard Brasileirão">
+                <h3>Dashboard Brasileirão</h3>
+            </div>
+
+            <div class="project_card"
+                data-title="Dashboard Vendas"
+                data-description="Este projeto simula uma base de dados de Vendas de Componentes de computador com o objetivo de criar dashboards interativos e extrair insights relevantes utilizando o Power BI."
+                data-tech="Power BI, Power Query, Python"
+                data-link="https://github.com/Jullyoo/Dashboard-Vendas">
+
+                <img src="assets/images/png/Dashboard-Vendas.PNG" alt="Dashboard Vendas">
+                <h3>Dashboard Vendas</h3>
+            </div>
+
+            <div class="project_card"
+                data-title="Dashboard Recursos Humanos"
+                data-description="Este projeto simula uma base de dados de Recursos Humanos com o objetivo de criar dashboards interativos e extrair insights relevantes utilizando o Power BI. A base de dados inclui informações sobre funcionários, departamentos, salários, avaliações de desempenho e outras métricas relacionadas à gestão de recursos humanos. O projeto visa demonstrar habilidades em análise de dados, visualização e storytelling utilizando o Power BI para fornecer insights valiosos sobre a força de trabalho e auxiliar na tomada de decisões estratégicas."
+                data-tech="Power BI, Power Query, Python"
+                data-link="https://github.com/Jullyoo/Dashboard-RH">
+
+                <img src="assets/images/png/Dashboard-RH.PNG" alt="Dashboard Recursos Humanos">
+                <h3>Dashboard Recursos Humanos</h3>
+            </div>
+
+            <div class="project_card"
+                data-title="Dashboard E-commerce"
+                data-description="Este projeto realiza uma análise exploratória dos dados públicos da Olist, um marketplace brasileiro, com foco em comportamento de compra, desempenho de vendas, logística de entrega e principais métricas de negócio."
+                data-tech="Power BI, Power Query, Python, API."
+                data-link="https://github.com/Jullyoo/Dashboard-Ecommerce">
+
+                <img src="assets/images/png/Dashboard-Ecommerce.PNG" alt="Dashboard E-commerce">
+                <h3>Dashboard E-commerce</h3>
+            </div>
+
+            <div class="project_card"
+                data-title="Dashboard Bitcoin"
+                data-description="Dashboard interativo com dados da API CoinGecko e análises complementares."
+                data-tech="Power BI, Power Automate, Python, API."
+                data-link="https://github.com/Jullyoo/Dashboard-BitCoin">
+
+                <img src="assets/images/png/Dashboard-Bitcoin.PNG" alt="Bitcoin">
+                <h3>Dashboard BitCoin</h3>
+            </div>
+
+            <div class="project_card"
+                data-title="Primeiro Portfólio"
+                data-description="Portfólio de Desenvolvimento de Software e DashBoards."
+                data-tech="HTML, CSS, JavaScript."
+                data-link="https://jullyoo.github.io/Julio-Portfolio/">
+
+                <img src="assets/images/png/Projeto_Portifolio.PNG" alt="Primeiro Portfólio">
+                <h3>Primeiro Portfólio</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="modal" id="serviceModal">
+        <div class="modal_content">
+            <span class="close_modal">&times;</span>
+            <h2 id="serviceModalTitle"></h2>
+            <p id="serviceModalDescription"></p>
+            <p><strong>Tecnologias:</strong> <span id="serviceModalTech"></span></p>
+        </div>
+    </div>
+
+    <div class="modal" id="techModal">
+        <div class="modal_content">
+            <span class="close_modal">&times;</span>
+            <h2 id="techModalTitle"></h2>
+            <p><strong>Cursos:</strong></p>
+            <p id="techModalCourses"></p>
+            <p><strong>Vivências:</strong></p>
+            <p id="techModalExperience"></p>
+            <p><strong>Projetos:</strong></p>
+            <p id="techModalProjects"></p>
+        </div>
+    </div>
+
+    <div class="modal" id="projectModal">
+        <div class="modal_content">
+            <span class="close_modal">&times;</span>
+            <h2 id="projectModalTitle"></h2>
+            <p id="projectModalDescription"></p>
+            <p><strong>Tecnologias:</strong> <span id="projectModalTech"></span></p>
+            <a id="projectModalLink" href="#" target="_blank" class="modal_btn">Ver Projeto</a>
+        </div>
+    </div>
+
+        <section id="contato" class="section">
+            <h2 class="section_title">Contato</h2>
+            <div class="contato">
+                <div class="contact_card">  
+                    <h3>Vamos conversar?</h3>
+                    <p>Estou aberto a oportunidades e colaborações. Sinta-se à vontade para entrar em contato comigo para discutir projetos, parcerias ou qualquer outra coisa relacionada ao desenvolvimento de software e análise de dados.</p>
+                    <p><strong>Email:</strong> julio.guimaraes2020@outlook.com</p>
+                    <p><strong>LinkedIn:</strong> <a href="#">linkedin.com/in/j-guimaraes</a></p>
+                    <p><strong>GitHub:</strong> <a href="#">github.com/Jullyoo</a></p>
+                </div>
+            </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 Julio.dev - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script type="module" src="assets/js/index.js"></script>
+
+</body>
+</html>

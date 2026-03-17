@@ -1,0 +1,44 @@
+/* Main CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(180deg, #151925, #008c9e, #151925);
+    color: #fff;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section {
+    padding: 100px 40px;
+    text-align: center;
+}
+/* Partículas */
+#particles-js {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+}
+/* Titulos da seção */
+.section_title{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#themeSelector {
+    padding: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#particles-js canvas {
+    filter: drop-shadow(0 0 4px rgba(255,255,255,0.3))
+            drop-shadow(0 0 8px rgba(255,255,255,0.2));
+
+}
