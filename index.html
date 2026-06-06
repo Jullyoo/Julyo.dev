@@ -61,23 +61,91 @@
         </a>
     </section>
 
-    <section id="sobre_mim" class="about_section">
-        <h2 class="section_title">Quem sou <span>eu?</span></h2>
-        <p class="apresentacao" id="text"></p>
-    </section>
+<section id="sobre_mim" class="about_section">
+
+    <h2 class="section_title">
+        Quem sou <span>eu?</span>
+    </h2>
+
+    <div class="about_container">
+
+        <div class="about_image">
+            <img src="assets/images/png/foto-perfil.jpeg" alt="Foto Profissional">
+        </div>
+
+        <div class="about_content">
+            <h3>Profissionalmente</h3>
+            
+            <div class="personal-item">
+                <p id="profissional-txt"></p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="about_container reverse">
+
+        <div class="about_content">
+            <h3>Para além do código</h3>
+            <div class="personal-description">
+
+                <div class="personal-item">
+                    <h4>Esporte & Estratégia</h4>
+                    <p>
+                        O basquete faz parte da minha rotina. Gosto tanto da adrenalina de jogar
+                        quanto do lado analítico, destrinchando táticas e jogadas.
+                    </p>
+                </div>
+
+                <div class="personal-item">
+                    <h4>Criatividade & Expressão</h4>
+                    <p>
+                        A arte corre em paralelo com a programação. Dedico meu tempo livre à escrita,
+                        criando narrativas, e à música, onde me divirto mixando batidas e sempre
+                        procurando a música do momento.
+                    </p>
+                </div>
+
+                <div class="personal-item">
+                    <h4>Fé & Valores</h4>
+                    <p>
+                        Sou católico, e minha espiritualidade é a base que guia minha ética,
+                        caráter e visão de mundo.
+                    </p>
+                </div>
+
+                <div class="personal-item">
+                    <h4>Cultura Pop & Ficção</h4>
+                    <p>
+                        Sou fascinado por boas histórias. Consumo muito conteúdo de ficção científica,
+                        seja jogando um bom videogame ou acompanhando séries marcantes.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="about_image">
+            <img src="assets/images/png/JulyoDuke.png"  class="personal-photo" alt="Foto Pessoal">
+        </div>
+
+    </div>
+
+</section>
 
     <section id="experiencias" class="section">
         <h2 class="section_title">Experiências</h2>
         <div class="experiencias_profissionais">
             <div class="experiencia_card">
-                <h3>Jovem Aprendiz Financeiro - GSS Segurança. <span>Mar/2022 – Jun/2023</span></h3>
-                <p class="load-text" data-file="assets/texts/gss.txt"></p>
-                <hr class="exp_divider"> 
+                <h3>Estagiário de Suporte Técnico - SETIDE Osasco. <span>Mar/2026 – Atualmente. </span></h3>
+                <p class="load-text" data-file="assets/texts/setide.txt"></p> 
+                <hr class="exp_divider">
                 <h3>Analista de Operações - Grupo NewSpace LTDA. <span>Dez/2023 – Set/2025.</span></h3>
                 <p class="load-text" data-file="assets/texts/newspace.txt"></p>
                 <hr class="exp_divider"> 
-                <h3>Estagiário de Suporte Técnico - SETIDE Osasco. <span>Mar/2026 – Atualmente. </span></h3>
-                <p class="load-text" data-file="assets/texts/setide.txt"></p>
+                <h3>Jovem Aprendiz Financeiro - GSS Segurança. <span>Mar/2022 – Jun/2023</span></h3>
+                <p class="load-text" data-file="assets/texts/gss.txt"></p>
             </div>
         </div>
     </section>
@@ -256,6 +324,26 @@
         <div class="project_cards">
 
             <div class="project_card"
+                data-title="Aureon Finance"
+                data-description="Uma plataforma moderna de análise financeira pessoal que transforma extratos bancários em insights inteligentes."
+                data-tech="HTML, CSS, JavaScript"
+                data-link="https://jullyoo.github.io/Aureon-Finance/">
+
+                <img src="assets/images/png/Aureon_Finance.PNG" alt="Aureon Finance">
+                <h3>Aureon Finance</h3>
+            </div>
+
+            <div class="project_card"
+                data-title="Data Cleaner Studio"
+                data-description="Aplicação web para limpeza e pré-processamento de dados, permitindo aos usuários carregar conjuntos de dados, aplicar transformações e exportar os resultados para análise posterior."
+                data-tech="HTML, CSS, JavaScript, Python, Flask"
+                data-link="https://github.com/Jullyoo/DataCleanerStudio">
+
+                <img src="assets/images/png/DataCleanerStudio.PNG" alt="Data Cleaner Studio">
+                <h3>Data Cleaner Studio</h3>
+            </div>
+
+            <div class="project_card"
                 data-title="Jullyo Capitale"
                 data-description="Calculadora de investimentos. Aplicação para simulação de investimentos com cálculo de juros compostos, IR e CDI, LCI, LCA, Tesouro Selic."
                 data-tech="HTML, CSS, JavaScript, Python, Flask"
@@ -266,13 +354,23 @@
             </div>
 
             <div class="project_card"
-                data-title="Dashboard Brasileirão"
-                data-description="Dashboard em Power BI apresentando dados sobre o campeonato brasileiro de 2024, Projeto realizado com base em uma proposta de faculdade."
-                data-tech="Power BI, Power Query, Python."
+                data-title="Dashboard Bitcoin"
+                data-description="Dashboard interativo com dados da API CoinGecko e análises complementares."
+                data-tech="Power BI, Power Automate, Python, API."
                 data-link="https://github.com/Jullyoo/Dashboard-BitCoin">
 
-                <img src="assets/images/png/Dashboard-brasileirão.PNG" alt="Dashboard Brasileirão">
-                <h3>Dashboard Brasileirão</h3>
+                <img src="assets/images/png/Dashboard-BitCoin.PNG" alt="Bitcoin">
+                <h3>Dashboard BitCoin</h3>
+            </div>
+
+            <div class="project_card"
+                data-title="Dashboard E-commerce"
+                data-description="Este projeto realiza uma análise exploratória dos dados públicos da Olist, um marketplace brasileiro, com foco em comportamento de compra, desempenho de vendas, logística de entrega e principais métricas de negócio."
+                data-tech="Power BI, Power Query, Python, API."
+                data-link="https://github.com/Jullyoo/Dashboard-Ecommerce">
+
+                <img src="assets/images/png/Dashboard-Ecommerce.PNG" alt="Dashboard E-commerce">
+                <h3>Dashboard E-commerce</h3>
             </div>
 
             <div class="project_card"
@@ -296,23 +394,13 @@
             </div>
 
             <div class="project_card"
-                data-title="Dashboard E-commerce"
-                data-description="Este projeto realiza uma análise exploratória dos dados públicos da Olist, um marketplace brasileiro, com foco em comportamento de compra, desempenho de vendas, logística de entrega e principais métricas de negócio."
-                data-tech="Power BI, Power Query, Python, API."
-                data-link="https://github.com/Jullyoo/Dashboard-Ecommerce">
-
-                <img src="assets/images/png/Dashboard-Ecommerce.PNG" alt="Dashboard E-commerce">
-                <h3>Dashboard E-commerce</h3>
-            </div>
-
-            <div class="project_card"
-                data-title="Dashboard Bitcoin"
-                data-description="Dashboard interativo com dados da API CoinGecko e análises complementares."
-                data-tech="Power BI, Power Automate, Python, API."
+                data-title="Dashboard Brasileirão"
+                data-description="Dashboard em Power BI apresentando dados sobre o campeonato brasileiro de 2024, Projeto realizado com base em uma proposta de faculdade."
+                data-tech="Power BI, Power Query, Python."
                 data-link="https://github.com/Jullyoo/Dashboard-BitCoin">
 
-                <img src="assets/images/png/Dashboard-BitCoin.PNG" alt="Bitcoin">
-                <h3>Dashboard BitCoin</h3>
+                <img src="assets/images/png/Dashboard-brasileirão.PNG" alt="Dashboard Brasileirão">
+                <h3>Dashboard Brasileirão</h3>
             </div>
 
             <div class="project_card"

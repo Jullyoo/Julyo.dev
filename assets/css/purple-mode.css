@@ -99,3 +99,18 @@
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
+
+.purple-mode .about_content h3,
+.purple-mode .about_content h4{
+    color: #8800FF;
+}
+
+.purple-mode .personal-item {
+    background: rgba(255,255,255,0.03);
+    border-left: 3px solid #8800FF;
+}
+
+.purple-mode .personal-photo, 
+.purple-mode .about_image img {
+    border: 2px solid #8800FF;
+}
