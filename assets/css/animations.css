@@ -1,14 +1,10 @@
-@keyframes blinkMarker{
-    50% {
-        border-right-color: transparent;
+@keyframes blinkCursor {
+    0%, 50% {
+        opacity: 1;
     }
-}
-@keyframes typing{
-    0%, 100%{
-        width: 0;
-    }
-    40%, 60% {
-        width: 17ch;
+
+    51%, 100% {
+        opacity: 0;
     }
 }
 

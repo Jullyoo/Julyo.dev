@@ -18,14 +18,26 @@
     font-size: 70px;
 }
 
-.dev{
+.dev {
     font-size: 50px;
-    border-right: 4px solid #00bcd4;
-    width: 17ch;
-    overflow: hidden;
+    font-weight: 600;
+    color: #00bcd4;
+    line-height: 1.2;
+    min-height: 50px;
+}
+
+#typing-text {
+    display: inline-block;
+    min-width: 22ch; /* espaço para o maior texto */
     white-space: nowrap;
-    color: #00bcd4;;
-    animation: blinkMarker 0.5s infinite, typing 5s steps(17) infinite ;
+}
+
+/* Cursor */
+#typing-text::after {
+    content: "|";
+    color: #00bcd4;
+    margin-left: 2px;
+    animation: blinkCursor 0.8s infinite;
 }
 
 .btn {

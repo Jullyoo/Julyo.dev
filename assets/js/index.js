@@ -6,6 +6,7 @@ import { initTextApresentacao } from "./text.js";
 import { initMenu } from "./menu.js";
 import { initTextExperiencias } from "./text.js";
 import { initProjectModal, initServiceModal, initTechModal } from "./modal.js";
+import { animateText } from "./typingtext.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     initParticles();
@@ -18,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initTextExperiencias();
     initTechModal();
     initServiceModal();
+    animateText();
 });
 
 initThemeToggle();

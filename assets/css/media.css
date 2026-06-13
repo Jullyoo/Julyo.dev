@@ -26,6 +26,9 @@
         display: none;
     }
 
+    .section {
+        padding: 30px 2px;
+    }
     .hero {
         padding: 0 20px;
         text-align: center;
@@ -49,8 +52,8 @@
         text-align: center;
     }
 
-    .about_content {
-        text-align: center;
+    .personal-item {
+        font-size: 10px;
     }
 
     .about_image img {
