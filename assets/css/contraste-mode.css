@@ -19,7 +19,8 @@
 .contrast-mode .tech_type_card,
 .contrast-mode .experiencia_card,
 .contrast-mode .contact_card,
-.contrast-mode .about_section {
+.contrast-mode .about_section
+.contrast-mode .analises_card {
     background: black;
     color: yellow;
 }
@@ -42,7 +43,8 @@
 .contrast-mode .tech_card,
 .contrast-mode .tech_type_card,
 .contrast-mode .experiencia_card,
-.contrast-mode .contact_card {
+.contrast-mode .contact_card
+.contrast-mode .analises_card {
     border: 1px solid red;
 }
 

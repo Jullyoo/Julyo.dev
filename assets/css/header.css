@@ -41,10 +41,23 @@ header a:hover {
     cursor: pointer;
     justify-self: start;
 }
-
-.logo {
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo_text {
     justify-self: start;
     font-family: 'Pacifico', cursive;
+}
+
+.logo_img {
+    width: 40px;
+    height: 40px;
+    border-radius: 25%;
+    object-fit: cover;
 }
 
 .logo:hover {
