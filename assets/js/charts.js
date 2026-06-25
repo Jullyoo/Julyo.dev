@@ -1,5 +1,3 @@
-// charts.js
-
 let charts = [];
 
 const chartThemes = {
@@ -127,7 +125,7 @@ function createCategoryChart(colors) {
                     data: [10, 6, 4, 2],
 
                     backgroundColor: [
-                        colors.primary,
+                        "#3B82F6",
                         "#22C55E",
                         "#F59E0B",
                         "#EF4444"
@@ -245,3 +243,7 @@ function createProblemChart(colors) {
 
     charts.push(chart);
 }
+
+document.addEventListener("themeChanged", () => {
+    initCharts();
+});

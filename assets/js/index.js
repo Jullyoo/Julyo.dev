@@ -10,10 +10,13 @@ import { animateText } from "./typingtext.js";
 import { initCharts } from "./charts.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-    initParticles();
+
+    const savedTheme = localStorage.getItem("theme") || "dark-mode";
+
+    initParticles(savedTheme);
     initHeader();
     initThemeToggle();
-    initScrollAnimation();   
+    initScrollAnimation();
     initTextApresentacao();
     initProjectModal();
     initMenu();
@@ -21,10 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initTechModal();
     initServiceModal();
     animateText();
+
     initCharts();
+
 });
-
-initThemeToggle();
-
-const savedTheme = localStorage.getItem("theme") || "dark-mode";
-initParticles(savedTheme);

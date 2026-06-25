@@ -115,3 +115,12 @@
 .green-mode .about_image img {
     border: 2px solid #3EB08A;
 }
+
+.green-mode .analises_card{
+    border: 2px solid #3EB08A;
+    background: #111114;
+}
+
+.green-mode .analises_card:hover{
+    background: #3EB08A;
+}

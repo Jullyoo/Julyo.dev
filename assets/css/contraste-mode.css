@@ -128,3 +128,13 @@
 .contrast-mode .about_image img {
     border: 2px solid red;
 }
+
+.contrast-mode .analises_card{
+    border: 2px solid red;
+    background: black;
+}
+
+.contrast-mode .analises_card:hover{
+    background: black;
+    color: red
+}

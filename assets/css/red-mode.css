@@ -111,3 +111,12 @@
 .red-mode .about_image img {
     border: 2px solid #960000;
 }
+
+.red-mode .analises_card{
+    border: 2px solid #960000;
+    background: #111114;
+}
+
+.red-mode .analises_card:hover{
+    background: #960000;
+}

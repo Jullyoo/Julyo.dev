@@ -114,3 +114,12 @@
 .purple-mode .about_image img {
     border: 2px solid #8800FF;
 }
+
+.purple-mode .analises_card{
+    border: 2px solid #8800FF;
+    background: #111114;
+}
+
+.purple-mode .analises_card:hover{
+    background: #8800FF;
+}
