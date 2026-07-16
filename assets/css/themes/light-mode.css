@@ -1,0 +1,31 @@
+.light-mode {
+    --color-primary: #00bcd4;
+    --color-bg-gradient: linear-gradient(180deg, #f5f5f5, #d6dee2, #f5f5f5);
+
+    --color-text: #111111;
+    --color-text-muted: #444444;
+
+    --color-card-bg: #ffffff;
+    --color-card-bg-rgb: 255, 255, 255;
+    --color-card-hover-bg: #00bcd4;
+    --color-card-hover-text: #000000;
+    --color-on-primary: #000000;
+
+    --color-header-bg: #f5f5f5;
+    --color-footer-bg: #f5f5f5;
+
+    --icon-filter: none;
+
+    --color-modal-bg: #ffffff;
+    --color-modal-btn-bg: #00bcd4;
+    --color-modal-btn-text: #000000;
+
+    --color-about-border: #00bcd4;
+
+    --color-personal-item-bg: rgba(0, 0, 0, 0.03);
+}
+
+.light-mode nav,
+.light-mode nav a {
+    color: var(--color-text);
+}

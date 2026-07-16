@@ -1,0 +1,40 @@
+.contrast-mode {
+    --color-primary: red;
+    --color-bg-gradient: black; 
+
+    --color-text: yellow;
+    --color-text-muted: yellow;
+
+    --color-card-bg: black;
+    --color-card-bg-rgb: 0, 0, 0;
+    --color-card-hover-bg: black;
+    --color-card-hover-text: red;
+    --color-on-primary: yellow; 
+
+    --color-about-border: yellow;
+
+    --color-header-bg: black;
+    --color-footer-bg: black;
+
+    --color-button-bg: black;
+    --color-button-text: yellow;
+    --color-button-gradient: linear-gradient(255deg, red, #960000);
+
+    --icon-filter: invert(27%) sepia(91%) saturate(7452%) hue-rotate(354deg) brightness(94%) contrast(125%);
+
+    --color-modal-bg: black;
+    --color-modal-btn-bg: red;
+    --color-modal-btn-text: yellow;
+}
+
+.contrast-mode .dev {
+    border-right: 4px solid var(--color-primary);
+}
+
+.contrast-mode .footer {
+    border-top: 2px solid yellow;
+}
+
+.contrast-mode .modal_content {
+    border: 2px solid yellow;
+}

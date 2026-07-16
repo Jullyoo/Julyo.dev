@@ -1,7 +1,7 @@
 .modal {
     position: fixed;
     inset: 0;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,8 @@
 }
 
 .modal_content {
-    background: #1e1e1e;
+    background: var(--color-modal-bg);
+    color: var(--color-text);
     padding: 35px;
     display: flex;
     flex-direction: column;
@@ -43,11 +44,13 @@
 }
 
 .modal_btn {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     margin-top: 20px;
     padding: 10px 20px;
-    background: #00bcd4;
-    color: black;
+    background: var(--color-modal-btn-bg);
+    color: var(--color-modal-btn-text);
     font-weight: bold;
     text-decoration: none;
     border-radius: 5px;

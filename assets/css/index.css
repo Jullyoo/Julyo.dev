@@ -1,20 +1,24 @@
-@import url('header.css');
-@import url('hero-section.css');
-@import url('sobre-mim-section.css');
-@import url('projetos-section.css');
-@import url('services-section.css');
-@import url('footer.css');
-@import url('reset.css');
-@import url('animations.css');
-@import url('buttons.css');
-@import url('tecnologias.css');
-@import url('light-mode.css');
-@import url('media.css');
-@import url('dark-mode.css');
-@import url('red-mode.css');
-@import url('green-mode.css');
-@import url('purple-mode.css');
-@import url('contraste-mode.css');
-@import url('experiencias.css');
-@import url('modals.css');
-@import url('analises.css');
+@import url('base/variables.css');
+@import url('base/reset.css');
+@import url('base/animations.css');
+
+@import url('layout/header.css');
+@import url('layout/hero-section.css');
+@import url('layout/sobre-mim-section.css');
+@import url('layout/experiencias.css');
+@import url('layout/services-section.css');
+@import url('layout/tecnologias-section.css');
+@import url('layout/projetos-section.css');
+@import url('layout/analises.css');
+@import url('layout/footer.css');
+@import url('layout/media.css');
+
+@import url('components/buttons.css');
+@import url('components/modals.css');
+
+@import url('themes/dark-mode.css');
+@import url('themes/light-mode.css');
+@import url('themes/red-mode.css');
+@import url('themes/green-mode.css');
+@import url('themes/purple-mode.css');
+@import url('themes/contrast-mode.css');

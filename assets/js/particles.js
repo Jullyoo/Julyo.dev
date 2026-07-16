@@ -1,12 +1,10 @@
 const particleThemes = {
-
     "dark-mode": "#00bcd4",
     "light-mode": "#00bcd4",
     "red-mode": "#ff4d4d",
     "green-mode": "#00ff9d",
     "purple-mode": "#c084ff",
     "contrast-mode": "#ffff00"
-
 };
 
 let currentColor = particleThemes["dark-mode"];

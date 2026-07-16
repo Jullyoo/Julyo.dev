@@ -1,40 +1,50 @@
 .footer {
     padding: 20px;
-    background: #1F2229;
+    background: var(--color-footer-bg);
+    color: var(--color-text);
     text-align: center;
     font-weight: bold;
 }
+
 .footer p:hover {
-    color: #00bcd4;
+    color: var(--color-primary);
     transition: ease-in-out 0.3s;
 }
 
 .contact_card {
-    background: #151925;
-    border: 2px solid #00bcd4;
+    background: var(--color-card-bg);
+    border: 2px solid var(--color-primary);
     padding: 20px;
     max-width: 400px;
     width: 100%;
     border-radius: 10px;
     transition: 0.3s;
-    filter: drop-shadow(0 0 4px rgba(255,255,255,0.2))
-            drop-shadow(0 0 8px rgba(255,255,255,0.2)); 
+    filter: drop-shadow(0 0 4px var(--color-card-shadow))
+            drop-shadow(0 0 8px var(--color-card-shadow));
 }
 
 .contact_card:hover {
     transform: translateY(-10px);
     transition: ease-in-out 0.3s;
 }
+
 .contact_card h3 {
     margin-top: 0;
-    color: #00bcd4;
+    color: var(--color-primary);
     font-weight: bolder;
     font-size: 26px;
-}  
+}
 
 .contact_card p {
     margin: 10px 0;
-    color: #fff;
+    color: var(--color-text);
+}
+
+.contact_card p i {
+    color: var(--color-primary);
+    width: 18px;
+    text-align: center;
+    margin-right: 4px;
 }
 
 .contato {

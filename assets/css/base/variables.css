@@ -1,0 +1,32 @@
+:root {
+    --color-primary: #00bcd4;
+
+    --color-bg-gradient: linear-gradient(180deg, #151925, #008c9e, #151925);
+
+    --color-text: #ffffff;
+    --color-text-muted: #d8d8d8;
+
+    --color-card-bg: #151925;
+    --color-card-bg-rgb: 21, 25, 37;
+    --color-card-hover-bg: #00bcd4;
+    --color-card-hover-text: #000000;
+    --color-on-primary: #000000;
+    --color-card-shadow: rgba(255, 255, 255, 0.2);
+
+    --color-header-bg: #1F2229;
+    --color-footer-bg: #1F2229;
+
+    --color-button-bg: #1F2229;
+    --color-button-text: #ffffff;
+    --color-button-gradient: linear-gradient(255deg, #00bcd4, #3E0294);
+
+    --icon-filter: invert(53%) sepia(93%) saturate(3015%) hue-rotate(151deg) brightness(98%) contrast(101%);
+
+    --color-modal-bg: #1e1e1e;
+    --color-modal-btn-bg: #00bcd4;
+    --color-modal-btn-text: #000000;
+
+    --color-about-border: #00bcd4;
+
+    --color-personal-item-bg: rgba(255, 255, 255, 0.03);
+}

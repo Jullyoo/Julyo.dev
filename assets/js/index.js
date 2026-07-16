@@ -8,6 +8,7 @@ import { initTextExperiencias } from "./text.js";
 import { initProjectModal, initServiceModal, initTechModal } from "./modal.js";
 import { animateText } from "./typingtext.js";
 import { initCharts } from "./charts.js";
+import { initProjectTilt } from "./project-3d.js";
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -24,7 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
     initTechModal();
     initServiceModal();
     animateText();
-
+    initProjectTilt();
     initCharts();
-
 });

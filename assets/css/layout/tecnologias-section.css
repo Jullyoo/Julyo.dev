@@ -1,0 +1,96 @@
+.tecnologias {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 24px;
+    max-width: 860px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.tech_type_card {
+    display: flex;
+    flex-direction: column;
+    min-height: 310px;
+    background: rgba(var(--color-card-bg-rgb), 0.55);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 2px solid var(--color-primary);
+    border-radius: 16px;
+    padding: 24px;
+    text-align: left;
+    transition: transform 0.3s;
+    box-shadow:
+        0 0 12px var(--color-card-shadow),
+        inset 0 1px 0 rgba(255, 255, 255, 0.08),
+        0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.tech_type_card:hover {
+    transform: translateY(-6px);
+}
+
+.tech_type_card > h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 19px;
+    margin: 0 0 18px 0;
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgba(var(--color-card-bg-rgb), 0.4);
+    color: var(--color-primary);
+}
+
+.tech_type_card > h3 i {
+    font-size: 16px;
+}
+
+.tech_cards {
+    flex: 1; 
+    align-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+    grid-auto-rows: min-content;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.tech_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-align: center;
+    cursor: pointer;
+    background: rgba(var(--color-card-bg-rgb), 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--color-primary);
+    border-radius: 12px;
+    padding: 16px 8px;
+    transition: all 0.3s;
+}
+
+.tech_card:hover {
+    transform: translateY(-6px);
+    background: var(--color-card-hover-bg);
+    color: var(--color-card-hover-text);
+}
+
+.tech_card img {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+    filter: none;
+    background-color: transparent;
+}
+
+.tech_card h3 {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.3;
+}

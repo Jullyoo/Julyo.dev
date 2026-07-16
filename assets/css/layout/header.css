@@ -13,8 +13,8 @@ header {
     z-index: 1000;
 }
 
-header.scrolled{
-    background-color:#1F2229;
+header.scrolled {
+    background-color: var(--color-header-bg);
 }
 
 header ul {
@@ -25,29 +25,32 @@ header ul {
 }
 
 header a {
-    color: white;
+    color: var(--color-text);
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 }
 
 header a:hover {
-    color: #00bcd4;
+    color: var(--color-primary);
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
+
 .menu_toggle {
     display: none;
     font-size: 25px;
     cursor: pointer;
     justify-self: start;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: 20px;
     font-weight: bold;
 }
+
 .logo_text {
     justify-self: start;
     font-family: 'Pacifico', cursive;
@@ -61,10 +64,11 @@ header a:hover {
 }
 
 .logo:hover {
-    color: #00bcd4;
+    color: var(--color-primary);
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
+
 .nav_menu {
     display: flex;
     gap: 30px;

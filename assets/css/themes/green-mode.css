@@ -1,0 +1,30 @@
+.green-mode {
+    --color-primary: #3EB08A;
+    --color-bg-gradient: linear-gradient(180deg, #111114, #1a4d3c, #111114);
+
+    --color-text: #ffffff;
+
+    --color-card-bg: #111114;
+    --color-card-bg-rgb: 17, 17, 20;
+    --color-card-hover-bg: #3EB08A;
+    --color-card-hover-text: #ffffff;
+    --color-on-primary: #ffffff;
+
+    --color-header-bg: #111114;
+    --color-footer-bg: #111114;
+
+    --color-button-bg: #111114;
+    --color-button-text: #ffffff;
+    --color-button-gradient: linear-gradient(255deg, #1a4d3c, #3EB08A);
+
+    --icon-filter: invert(61%) sepia(54%) saturate(464%) hue-rotate(113deg) brightness(91%) contrast(88%);
+
+    --color-modal-btn-bg: #3EB08A;
+    --color-modal-btn-text: #ffffff;
+
+    --color-about-border: #3EB08A;
+}
+
+.green-mode .dev {
+    border-right: 4px solid var(--color-primary);
+}
