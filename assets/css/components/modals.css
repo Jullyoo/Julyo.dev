@@ -1,7 +1,7 @@
 .modal {
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.75);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,6 +9,7 @@
     visibility: hidden;
     transition: 0.3s;
     z-index: 2000;
+    padding: 24px;
 }
 
 .modal.active {
@@ -19,39 +20,242 @@
 .modal_content {
     background: var(--color-modal-bg);
     color: var(--color-text);
-    padding: 35px;
+    width: 90%;
+    max-width: 560px;
+    max-height: 85vh;
+    border-radius: 14px;
+    position: relative;
+    transform: scale(0.92) translateY(10px);
+    transition: 0.3s;
     display: flex;
     flex-direction: column;
-    gap: 18px;
-    width: 90%;
-    max-width: 500px;
-    border-radius: 10px;
-    position: relative;
-    transform: scale(0.8);
-    transition: 0.3s;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--color-modal-border, rgba(255, 255, 255, 0.08));
 }
 
 .modal.active .modal_content {
-    transform: scale(1);
+    transform: scale(1) translateY(0);
 }
 
 .close_modal {
     position: absolute;
-    right: 15px;
-    top: 10px;
-    font-size: 25px;
+    right: 16px;
+    top: 14px;
+    font-size: 22px;
+    line-height: 1;
     cursor: pointer;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--color-text);
+    opacity: 0.7;
+    transition: 0.2s;
+    z-index: 1;
+}
+
+.close_modal:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+/* ---------- Header ---------- */
+
+.modal_header {
+    padding: 28px 60px 20px 28px;
+    border-bottom: 1px solid var(--color-modal-border, rgba(255, 255, 255, 0.08));
+    flex-shrink: 0;
+}
+
+.modal_header h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+    color: var(--color-text);
+}
+
+.modal_subtitle {
+    margin-top: 4px;
+    font-size: 0.85rem;
+    opacity: 0.6;
+    letter-spacing: 0.03em;
+}
+
+/* ---------- Scrollable body ---------- */
+
+.modal_body {
+    padding: 24px 28px 28px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.modal_body::-webkit-scrollbar {
+    width: 6px;
+}
+
+.modal_body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.modal_body::-webkit-scrollbar-thumb {
+    background: var(--color-modal-accent, #2dd4bf);
+    opacity: 0.4;
+    border-radius: 10px;
+}
+
+/* ---------- Sections ---------- */
+
+.modal_section {
+    position: relative;
+    padding-left: 16px;
+    border-left: 3px solid var(--section-color, var(--color-modal-accent, #2dd4bf));
+}
+
+.modal_section[data-kind="courses"] {
+    --section-color: #38bdf8;
+}
+
+.modal_section[data-kind="experience"] {
+    --section-color: #a78bfa;
+}
+
+.modal_section[data-kind="projects"] {
+    --section-color: #2dd4bf;
+}
+
+.modal_section_title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--section-color, var(--color-modal-accent, #2dd4bf));
+    margin: 0 0 10px;
+}
+
+.modal_section_title i {
+    font-size: 0.85rem;
+}
+
+.modal_text {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    opacity: 0.92;
+}
+
+/* ---------- Lists (courses / vivências) ---------- */
+
+.modal_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.modal_list li {
+    position: relative;
+    padding-left: 16px;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    opacity: 0.92;
+}
+
+.modal_list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.55em;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--section-color, var(--color-modal-accent, #2dd4bf));
+}
+
+.modal_list li.empty {
+    opacity: 0.5;
+    font-style: italic;
+}
+
+.modal_list li.empty::before {
+    display: none;
+}
+
+/* ---------- Tags (projects / tech) ---------- */
+
+.modal_tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.modal_tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--section-color, var(--color-modal-accent, #2dd4bf)) 16%, transparent);
+    color: var(--section-color, var(--color-modal-accent, #2dd4bf));
+    border: 1px solid color-mix(in srgb, var(--section-color, var(--color-modal-accent, #2dd4bf)) 35%, transparent);
+}
+
+.modal_tag_empty {
+    font-size: 0.9rem;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+/* ---------- Footer / link button ---------- */
+
+.modal_footer {
+    padding: 18px 28px 28px;
+    border-top: 1px solid var(--color-modal-border, rgba(255, 255, 255, 0.08));
+    flex-shrink: 0;
 }
 
 .modal_btn {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 8px;
-    margin-top: 20px;
-    padding: 10px 20px;
+    width: 100%;
+    padding: 12px 20px;
     background: var(--color-modal-btn-bg);
     color: var(--color-modal-btn-text);
     font-weight: bold;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.modal_btn:hover {
+    filter: brightness(1.1);
+    transform: translateY(-1px);
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 480px) {
+    .modal_header {
+        padding: 22px 50px 16px 20px;
+    }
+
+    .modal_body {
+        padding: 18px 20px 22px;
+    }
+
+    .modal_footer {
+        padding: 14px 20px 22px;
+    }
 }
