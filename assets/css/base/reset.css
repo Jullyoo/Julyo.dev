@@ -30,6 +30,14 @@ body {
     font-weight: bold;
 }
 
+.section_subtitle {
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-secundary-text);
+    letter-spacing: 0.3px;
+}
+
 #themeSelector {
     padding: 5px;
     border-radius: 6px;

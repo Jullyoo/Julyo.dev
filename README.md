@@ -1,25 +1,61 @@
 # 🚀 Julyo.dev
 
-Portfólio profissional desenvolvido para apresentar projetos, habilidades e experiências nas áreas de Desenvolvimento Web e Análise de Dados.
+Portfólio profissional desenvolvido para apresentar meus projetos, habilidades e experiências nas áreas de **Desenvolvimento Web** e **Análise de Dados**.
 
-## 📖 Sobre o Projeto
+🌐 **Acesse o portfólio:** https://jullyoo.github.io/Julyo.dev/
 
-O **Julyo.dev** é um portfólio pessoal criado para centralizar meus projetos, experiências e estudos em tecnologia. O objetivo é demonstrar competências técnicas através de aplicações reais, dashboards analíticos e soluções voltadas para desenvolvimento e dados.
+---
 
-O projeto foi desenvolvido com foco em:
+## 📌 Sobre o projeto
 
-* Design moderno e responsivo;
-* Navegação intuitiva;
-* Boa experiência do usuário (UX);
-* Performance e acessibilidade;
-* Apresentação profissional de projetos e habilidades.
+O **Julyo.dev** é meu portfólio pessoal e profissional, criado para centralizar projetos, experiências, estudos e conhecimentos adquiridos ao longo da minha trajetória na área de tecnologia.
 
-## 🌐 Acesse o Projeto
+A proposta é apresentar, de forma visual e organizada, aplicações desenvolvidas, projetos de análise de dados, dashboards e outras soluções utilizadas para colocar meus conhecimentos técnicos em prática.
 
-**Live Demo:**
-https://jullyoo.github.io/Julyo.dev/
+Além de funcionar como uma apresentação profissional, o projeto também acompanha minha **evolução técnica e meus estudos em tecnologia**.
 
-## 🛠️ Tecnologias Utilizadas
+## 🎯 Objetivo
+
+O principal objetivo do projeto é criar uma **vitrine profissional** que permita apresentar:
+
+* Projetos desenvolvidos;
+* Habilidades e tecnologias;
+* Experiências profissionais;
+* Estudos e certificações;
+* Projetos de Desenvolvimento Web;
+* Projetos de Análise de Dados e Business Intelligence.
+
+---
+
+## 🖼️ Preview
+
+### Desktop
+
+![Preview do portfólio](assets/images/preview.png)
+
+### Demonstração
+
+![Demonstração do portfólio](assets/images/preview.gif)
+
+> *Os arquivos de preview podem ser atualizados conforme novas versões do portfólio forem desenvolvidas.*
+
+---
+
+## ✨ Funcionalidades
+
+* 👨‍💻 Apresentação profissional;
+* 📂 Catálogo de projetos;
+* 🛠️ Apresentação de habilidades técnicas;
+* 📄 Informações sobre experiências e formação;
+* 🔗 Links para GitHub, LinkedIn e outros canais profissionais;
+* 📱 Layout responsivo;
+* 🎨 Interface com temas e elementos visuais interativos;
+* ⚡ Animações e interações desenvolvidas em JavaScript;
+* 🌐 Publicação e hospedagem via GitHub Pages.
+
+---
+
+## 🛠️ Tecnologias utilizadas
 
 ### Front-End
 
@@ -27,33 +63,21 @@ https://jullyoo.github.io/Julyo.dev/
 * CSS3
 * JavaScript (ES6+)
 
-### Ferramentas
+### Bibliotecas
+
+* Chart.js
+* Particles.js
+
+### Ferramentas e serviços
 
 * Git
 * GitHub
 * GitHub Pages
+* Visual Studio Code
 
-## ✨ Principais Funcionalidades
+---
 
-* Apresentação profissional do perfil;
-* Seção de projetos desenvolvidos;
-* Demonstração de habilidades técnicas;
-* Links para GitHub e redes profissionais;
-* Layout responsivo para desktop, tablet e mobile;
-* Animações e interações em JavaScript.
-
-## 📊 Projetos em Destaque
-
-O portfólio reúne projetos voltados para:
-
-* Desenvolvimento Web;
-* Dashboards em Power BI;
-* Análise de Dados;
-* Automação com Python;
-* Visualização de Dados;
-* Estudos e projetos pessoais.
-
-## 📂 Estrutura do Projeto
+## 📂 Estrutura do projeto
 
 ```text
 Julyo.dev/
@@ -61,35 +85,49 @@ Julyo.dev/
 ├── assets/
 │   ├── css/
 │   ├── js/
-│   ├── images/
-│   └── icons/
+│   └──  images/
 │
 ├── index.html
-├── README.md
-
+└── README.md
 ```
 
-## 🎯 Objetivo
-
-Este portfólio foi criado para servir como uma vitrine profissional, demonstrando minha evolução técnica, capacidade analítica e experiência no desenvolvimento de soluções digitais.
-
-## 📱 Responsividade
-
-O projeto foi desenvolvido seguindo princípios de responsividade para garantir uma boa experiência em diferentes dispositivos:
-
-* Desktop
-* Notebook
-* Tablet
-* Smartphone
-
-## 📬 Contato
-
-Caso queira conversar sobre tecnologia, desenvolvimento ou análise de dados:
-
-* GitHub: https://github.com/jullyoo
-* LinkedIn: www.linkedin.com/in/j-guimaraes
-* Portfólio: https://jullyoo.github.io/Julyo.dev/
+A estrutura pode ser modificada conforme novas funcionalidades e recursos forem adicionados ao projeto.
 
 ---
 
-⭐ Se este projeto foi útil ou interessante para você, considere deixar uma estrela no repositório.
+## 🚀 Como utilizar
+
+### Acesso online
+
+O projeto está disponível através do GitHub Pages:
+
+🌐 https://jullyoo.github.io/Julyo.dev/
+
+---
+
+## 🔮 Próximos passos
+
+O portfólio está em desenvolvimento contínuo. Entre as possíveis melhorias estão:
+
+* Adição de novos projetos;
+* Evolução da interface e experiência do usuário;
+* Novas animações e interações;
+* Melhorias de acessibilidade;
+* Otimizações de performance;
+* Novos recursos para apresentação dos projetos.
+
+---
+
+## 👨‍💻 Autor
+
+**Julio Guimarães**
+
+Desenvolvedor em formação com interesse em **Desenvolvimento Web, Análise de Dados e Tecnologia**.
+
+* 💻 GitHub: https://github.com/jullyoo
+* 💼 LinkedIn: https://www.linkedin.com/in/j-guimaraes/
+* 🌐 Portfólio: https://jullyoo.github.io/Julyo.dev/
+
+---
+
+🙏 "O estudioso é aquele que leva aos demais o que ele compreendeu: a Verdade." - São Tomás de Aquino.

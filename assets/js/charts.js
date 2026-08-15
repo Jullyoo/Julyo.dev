@@ -69,7 +69,7 @@ function createTechChart(colors) {
                     "Excel"
                 ],
                 datasets: [{
-                    data: [10, 6, 5, 2, 6, 6, 4],
+                    data: [12, 6, 8, 2, 6, 8, 8],
                     backgroundColor: colors.primary,
                     borderRadius: 10,
                     borderSkipped: false
@@ -122,7 +122,7 @@ function createCategoryChart(colors) {
                 ],
 
                 datasets: [{
-                    data: [10, 6, 4, 2],
+                    data: [14, 8, 4, 6],
 
                     backgroundColor: [
                         "#3B82F6",
@@ -170,7 +170,7 @@ function createEvolutionChart(colors) {
                 ],
 
                 datasets: [{
-                    data: [1, 1, 6, 14],
+                    data: [1, 1, 6, 16],
 
                     borderColor: colors.primary,
                     backgroundColor: colors.transparent,
@@ -218,10 +218,8 @@ function createProblemChart(colors) {
                 ],
 
                 datasets: [{
-                    data: [8, 6, 5, 2, 6, 3],
-
+                    data: [11, 6, 4, 4, 8, 3],
                     backgroundColor: colors.primary,
-
                     borderRadius: 10
                 }]
             },

@@ -1,9 +1,35 @@
+.project_category {
+    margin-bottom: 70px;
+}
+
+.project_category:last-child {
+    margin-bottom: 0;
+}
+
+.project_category .section_subtitle {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 16px;
+}
+
+.project_category .section_subtitle::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    border-radius: 2px;
+    background: var(--color-button-gradient);
+}
+
 .project_cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-    margin: 60px 0;
+    margin: 30px 0 0;
 }
 
 .project_card {
