@@ -24,21 +24,7 @@ O principal objetivo do projeto é criar uma **vitrine profissional** que permit
 * Estudos e certificações;
 * Projetos de Desenvolvimento Web;
 * Projetos de Análise de Dados e Business Intelligence.
-
----
-
-## 🖼️ Preview
-
-### Desktop
-
-![Preview do portfólio](assets/images/preview.png)
-
-### Demonstração
-
-![Demonstração do portfólio](assets/images/preview.gif)
-
-> *Os arquivos de preview podem ser atualizados conforme novas versões do portfólio forem desenvolvidas.*
-
+g
 ---
 
 ## ✨ Funcionalidades
