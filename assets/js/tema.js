@@ -15,27 +15,27 @@ export function initThemeToggle() {
 
     const themeConfig = {
         "dark-mode": {
-            logo: "assets/images/png/Julyo_dev_logo_azul.png"
+            logo: "assets/images/png/hero/Julyo_dev_logo_azul.png"
         },
 
         "light-mode": {
-            logo: "assets/images/png/Julyo_dev_logo_azul.png"
+            logo: "assets/images/png/hero/Julyo_dev_logo_azul.png"
         },
 
         "green-mode": {
-            logo: "assets/images/png/Julyo_dev_logo_verde.png"
+            logo: "assets/images/png/hero/Julyo_dev_logo_verde.png"
         },
 
         "red-mode": {
-            logo: "assets/images/png/Julyo_dev_logo_vermelho.png"
+            logo: "assets/images/png/hero/Julyo_dev_logo_vermelho.png"
         },
 
         "purple-mode": {
-            logo: "assets/images/png/Julyo_dev_logo_roxo.png"
+            logo: "assets/images/png/hero/Julyo_dev_logo_roxo.png"
         },
 
         "contrast-mode": {
-            logo: "assets/images/png/Julyo_dev_logo_amarelo.png"
+            logo: "assets/images/png/hero/Julyo_dev_logo_amarelo.png"
         }
     };
 
