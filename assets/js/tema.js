@@ -39,17 +39,20 @@ export function initThemeToggle() {
         }
     };
 
+    const logoIds = ["logoImg", "footerLogoImg"];
+
     function updateThemeAssets(theme) {
 
         const config = themeConfig[theme];
 
-        if (!config) return;
+        if (!config || !config.logo) return;
 
-        const logo = document.getElementById("logoImg");
-
-        if (logo && config.logo) {
-            logo.src = config.logo;
-        }
+        logoIds.forEach((id) => {
+            const logo = document.getElementById(id);
+            if (logo) {
+                logo.src = config.logo;
+            }
+        });
     }
 
     function applyTheme(theme, triggerEvent = true) {

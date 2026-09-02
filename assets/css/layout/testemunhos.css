@@ -1,0 +1,80 @@
+.testemunhos_cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 40px auto 0;
+}
+
+.testemunho_card {
+    background: var(--color-card-bg);
+    border-radius: 16px;
+    padding: 30px 26px;
+    text-align: left;
+    box-shadow: 0 4px 20px var(--color-card-shadow);
+    border: 2px solid var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: transform 0.3s;
+    box-shadow:
+        0 0 12px var(--color-card-shadow),
+        inset 0 1px 0 rgba(255, 255, 255, 0.08),
+        0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.testemunho_card:hover {
+    transform: translateY(-6px);
+}
+
+.testemunho_quote_icon {
+    color: var(--color-primary);
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+.testemunho_text {
+    color: var(--color-text-muted);
+    font-size: 15px;
+    line-height: 1.7;
+    font-style: italic;
+    flex-grow: 1;
+}
+
+.testemunho_author {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.testemunho_avatar {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-button-bg);
+    color: var(--color-primary);
+    font-size: 24px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+/* Se trocar o ícone por foto real, use <img class="testemunho_avatar_img"> dentro de .testemunho_avatar */
+.testemunho_avatar_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testemunho_name {
+    font-size: 15px;
+    color: var(--color-text);
+    margin-bottom: 2px;
+}
+
+.testemunho_role {
+    font-size: 13px;
+    color: var(--color-text-muted);
+}

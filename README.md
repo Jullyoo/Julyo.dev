@@ -3,6 +3,7 @@
 Portfólio profissional desenvolvido para apresentar meus projetos, habilidades e experiências nas áreas de **Desenvolvimento Web** e **Análise de Dados**.
 
 🌐 **Acesse o portfólio (GitHub Pages):** https://jullyoo.github.io/Julyo.dev/
+
 🌐 **Acesse o portfólio (Vercel):** https://julyo-dev.vercel.app
 
 ---
