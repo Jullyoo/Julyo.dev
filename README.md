@@ -26,7 +26,7 @@ O principal objetivo do projeto é criar uma **vitrine profissional** que permit
 * Estudos e certificações;
 * Projetos de Desenvolvimento Web;
 * Projetos de Análise de Dados e Business Intelligence.
-g
+
 ---
 
 ## ✨ Funcionalidades
@@ -73,7 +73,7 @@ Julyo.dev/
 ├── assets/
 │   ├── css/
 │   ├── js/
-│   └──  images/
+│   └── images/
 │
 ├── index.html
 └── README.md
