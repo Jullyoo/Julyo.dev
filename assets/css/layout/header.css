@@ -53,7 +53,12 @@ header a:hover {
 
 .logo_text {
     justify-self: start;
-    font-family: 'Pacifico', cursive;
+    font-family: "Epilogue", sans-serif;
+}
+
+.logo_span {
+    color: var(--color-primary);
+    font-family: "Epilogue", sans-serif;
 }
 
 .logo_img {
