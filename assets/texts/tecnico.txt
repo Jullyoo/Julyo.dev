@@ -1,0 +1,2 @@
+Fundamentos de **redes de computadores**: protocolos, endereçamento IP e topologias.
+Montagem, configuração e manutenção de redes locais e cabeamento estruturado.

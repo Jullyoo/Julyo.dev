@@ -5,6 +5,7 @@ import { initHeader } from "./header.js";
 import { initTextApresentacao } from "./text.js";
 import { initMenu } from "./menu.js";
 import { initTextExperiencias } from "./text.js";
+import { initExperiencias } from "./experiencias.js";
 import { initProjectModal, initServiceModal, initTechModal } from "./modal.js";
 import { animateText } from "./typingtext.js";
 import { initCharts } from "./charts.js";
@@ -22,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initProjectModal();
     initMenu();
     initTextExperiencias();
+    initExperiencias();
     initTechModal();
     initServiceModal();
     animateText();

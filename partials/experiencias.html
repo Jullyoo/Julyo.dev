@@ -1,15 +1,100 @@
-    <section id="experiencias" class="section">
+<section id="experiencias" class="section exp" data-exp>
         <h2 class="section_title">Experiências</h2>
         <div class="experiencias_profissionais">
             <div class="experiencia_card">
-                <h3>Estagiário de Suporte Técnico - SETIDE Osasco. <span>Mar/2026 – Atualmente. </span></h3>
-                <p class="load-text" data-file="assets/texts/setide.txt"></p>
-                <hr class="exp_divider">
-                <h3>Analista de Operações - Grupo NewSpace LTDA. <span>Dez/2023 – Set/2025.</span></h3>
-                <p class="load-text" data-file="assets/texts/newspace.txt"></p>
-                <hr class="exp_divider">
-                <h3>Jovem Aprendiz Financeiro - GSS Segurança. <span>Mar/2022 – Jun/2023</span></h3>
-                <p class="load-text" data-file="assets/texts/gss.txt"></p>
+                <div class="exp-filters" role="group" aria-label="Filtrar a linha do tempo">
+                    <button type="button" class="exp-chip" data-filter="all" aria-pressed="true">Tudo <span class="exp-chip__count"></span></button>
+                    <button type="button" class="exp-chip" data-filter="work" aria-pressed="false"><span class="exp-chip__glyph exp-chip__glyph--work" aria-hidden="true"></span>Profissional <span class="exp-chip__count"></span></button>
+                    <button type="button" class="exp-chip" data-filter="edu" aria-pressed="false"><span class="exp-chip__glyph exp-chip__glyph--edu" aria-hidden="true"></span>Formação <span class="exp-chip__count"></span></button>
+                </div>
+                <p class="exp-sr-only" role="status" aria-live="polite" data-filter-status></p>
+
+                <div class="tl" data-timeline>
+                    <span class="tl-rail" aria-hidden="true"><span class="tl-fill"></span><span class="tl-head"></span></span>
+
+                    <ol class="tl-items">
+                        <li class="tl-item" data-type="work" data-start="2026-03" data-end="present">
+                            <div class="tl-when">
+                                <span class="tl-date"><time datetime="2026-03">Mar/2026</time> – Atualmente</span>
+                                <span class="tl-extra"><span class="tl-duration" data-duration></span><span class="tl-badge">Atual</span></span>
+                            </div>
+                            <span class="tl-node" aria-hidden="true"></span>
+                            <div class="tl-body">
+                                <h3 class="tl-role">Estagiário de Suporte Técnico</h3>
+                                <p class="tl-org">SETIDE Osasco</p>
+                                <ul class="tl-points load-text" data-file="assets/texts/setide.txt" data-format="list"></ul>
+                                <ul class="tl-tags" aria-label="Habilidades">
+                                    <li>Suporte N1</li><li>Active Directory</li><li>Gestão de chamados</li><li>Controle de acesso</li><li>Acesso remoto</li><li>Impressoras e periféricos</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="tl-item" data-type="edu" data-start="2024-01" data-end="2027-12">
+                            <div class="tl-when">
+                                <span class="tl-date"><time datetime="2024-01">Jan/2024</time> – <time datetime="2027-12">Dez/2027</time> <small>(previsão)</small></span>
+                                <span class="tl-extra"><span class="tl-duration" data-duration></span><span class="tl-badge">Cursando</span></span>
+                            </div>
+                            <span class="tl-node" aria-hidden="true"></span>
+                            <div class="tl-body">
+                                <h3 class="tl-role">Graduação em Engenharia de Software</h3>
+                                <p class="tl-org">Anhanguera Educacional</p>
+                                <ul class="tl-points load-text" data-file="assets/texts/graduacao.txt" data-format="list"></ul>
+                                <ul class="tl-tags" aria-label="Habilidades">
+                                    <li>Engenharia de Software</li><li>Programação</li><li>Banco de dados</li><li>Análise de requisitos</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="tl-item" data-type="work" data-start="2023-12" data-end="2025-09">
+                            <div class="tl-when">
+                                <span class="tl-date"><time datetime="2023-12">Dez/2023</time> – <time datetime="2025-09">Set/2025</time></span>
+                                <span class="tl-extra"><span class="tl-duration" data-duration></span></span>
+                            </div>
+                            <span class="tl-node" aria-hidden="true"></span>
+                            <div class="tl-body">
+                                <h3 class="tl-role">Analista de Operações</h3>
+                                <p class="tl-org">Grupo NewSpace LTDA</p>
+                                <ul class="tl-points load-text" data-file="assets/texts/newspace.txt" data-format="list"></ul>
+                                <ul class="tl-tags" aria-label="Habilidades">
+                                    <li>Análise de crédito</li><li>Operações bancárias</li><li>Pesquisa documental</li><li>Relatórios gerenciais</li><li>Banco de dados</li><li>Planilhas</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="tl-item" data-type="work" data-start="2022-03" data-end="2023-06">
+                            <div class="tl-when">
+                                <span class="tl-date"><time datetime="2022-03">Mar/2022</time> – <time datetime="2023-06">Jun/2023</time></span>
+                                <span class="tl-extra"><span class="tl-duration" data-duration></span></span>
+                            </div>
+                            <span class="tl-node" aria-hidden="true"></span>
+                            <div class="tl-body">
+                                <h3 class="tl-role">Jovem Aprendiz Financeiro</h3>
+                                <p class="tl-org">GSS Segurança</p>
+                                <ul class="tl-points load-text" data-file="assets/texts/gss.txt" data-format="list"></ul>
+                                <ul class="tl-tags" aria-label="Habilidades">
+                                    <li>Contas a pagar</li><li>Contas a receber</li><li>Conferência de documentos</li><li>Arquivamento</li><li>Suporte administrativo</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="tl-item" data-type="edu" data-start="2019-01" data-end="2020-09">
+                            <div class="tl-when">
+                                <span class="tl-date"><time datetime="2019-01">Jan/2019</time> – <time datetime="2020-09">Set/2020</time></span>
+                                <span class="tl-extra"><span class="tl-duration" data-duration></span></span>
+                            </div>
+                            <span class="tl-node" aria-hidden="true"></span>
+                            <div class="tl-body">
+                                <h3 class="tl-role">Curso Técnico de Redes de Computadores</h3>
+                                <p class="tl-org">SENAI Jandira (Prof. Vicente Amato)</p>
+                                <ul class="tl-points load-text" data-file="assets/texts/tecnico.txt" data-format="list"></ul>
+                                <ul class="tl-tags" aria-label="Habilidades">
+                                    <li>Redes de computadores</li><li>TCP/IP</li><li>Cabeamento estruturado</li><li>Infraestrutura</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                    </ol>
+                </div>
             </div>
         </div>
     </section>
